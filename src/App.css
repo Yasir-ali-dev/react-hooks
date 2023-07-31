@@ -3,12 +3,44 @@
   margin: 15px 15px;
 }
 
+.box{
+  background-color: blanchedalmond;
+  width: "150px";
+  height: "50px";
+}
+
+u,i{
+  text-decoration: none;
+}
+
+.Modal{
+  margin: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: large;
+  color: rgb(96, 129, 173);
+  padding: 10px 10px;
+}
+input{
+  border: none;
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: large;
+  padding: 15px 30px;
+}
 
 
 button{
-  width: 55px;
-  height: 35px;
   margin: 10px 10px;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: large;
+  color: grey;
+  padding: 10px 10px;
 }
 
 input{
