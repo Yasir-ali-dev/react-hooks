@@ -68,7 +68,8 @@ const UseReducerModal = () => {
           type='submit' 
           onClick={(e)=>{
             e.preventDefault();
-            return dispatch({type:"ADD_PERSON",name:name})
+            dispatch({type:"ADD_PERSON",name:name})
+            setName("");
           }}
         >Add</button>
       </form>
