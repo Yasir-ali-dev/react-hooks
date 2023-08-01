@@ -53,16 +53,33 @@ button{
   padding: 10px 10px;
 }
 
+label{
+  color:  rgb(15, 214, 148);
+}
 input{
   margin: 5px 5px;
 }
 h1{
   margin: 10px 10px;
-text-align: center;
+  text-align: center;
+  color: gray;
+}
+
+.multi_form{
+  color: rgb(99, 117, 223);
+  width: 400px;
+  border: 3px solid whitesmoke;
+  height: 250px;
+  padding: 0px 75px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .form {
-    color: white;
+    color: rgb(99, 117, 223);
     width: 400px;
     border: 3px solid whitesmoke;
     height: 170px;

@@ -21,7 +21,7 @@ const UseContextObjectUpdate = () => {
 const Form =()=>{
     return(
         <Panel title={"Message"}>
-            <LoginButton/>
+            <LoginButton />
         </Panel>
     )
 }
@@ -29,14 +29,10 @@ const Form =()=>{
 const Panel =({children,title})=>{
     const {currentUser}=useContext(CurrentUserContext);
     console.log(currentUser);
-    if(currentUser !== null){
-        return(
-            <h1>You are already Login with Alaska</h1>
-        )
-    }
+    
 
     return(
-        <section>
+        <section className='form'>
             <h3>{title}</h3>
             {children}
         </section>
@@ -44,7 +40,12 @@ const Panel =({children,title})=>{
 }
 
 const LoginButton =()=>{
-    const {setCurrentUser} =useContext(CurrentUserContext);
+    const {setCurrentUser,currentUser} =useContext(CurrentUserContext);
+    if(currentUser !== null){
+        return(
+            <h1>You are already Login with Alaska</h1>
+        )
+    }
     return(
         <Button 
             onClick={()=> setCurrentUser("Alaska") }

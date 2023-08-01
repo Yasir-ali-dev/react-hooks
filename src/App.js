@@ -1,5 +1,6 @@
 import "./App.css";
 import LoginForm from "./useContextContainer/LoginForm";
+import MultipleContexts from "./useContextContainer/MultipleContexts";
 import UseContextObjectUpdate from "./useContextContainer/UseContextObjectUpdate";
 
 // import TodoApp from "./useReducerContainer/Todo/TodoApp";
@@ -8,7 +9,7 @@ import UseContextObjectUpdate from "./useContextContainer/UseContextObjectUpdate
 // import UseReducer_B from "./useReducerContainer/UseReducer_B";
 
 function App() {
-  return <UseContextObjectUpdate />;
+  return <MultipleContexts />;
 }
 
 export default App;
