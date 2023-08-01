@@ -2,6 +2,8 @@ import React, {  useContext, useState } from 'react';
 
 const ThemeContext = React.createContext(null);
 
+// updating a value via context
+
 const LoginForm = () => {
     const [theme,setTheme]=useState("grey");
     return (
@@ -61,21 +63,5 @@ const Button =({children})=>{
         </button>
     ) 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default LoginForm;
