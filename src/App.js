@@ -9,12 +9,13 @@ import "./App.css";
 // import UseReducer_B from "./useReducerContainer/UseReducer_B";
 // import UseEffectExternalConnection from "./useEffectContainer/useEffectExternalConnection";
 // import UseEffectWindowEvents from "./useEffectContainer/useEffectWindowEvents";
-import UseEffectModelDialog from "./useEffectContainer/useEffectModelDialog";
+// import UseEffectModelDialog from "./useEffectContainer/useEffectModelDialog";
+import UseId from "./useId/useId.jsx";
 
 function App() {
   return (
     <>
-      <UseEffectModelDialog />
+      <UseId />
     </>
   );
 }
