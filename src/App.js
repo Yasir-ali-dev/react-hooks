@@ -1,10 +1,10 @@
 import "./App.css";
-import StopWatch from "./useRef/StopWatch";
 
+import ReducerContext from "./scaleReducerContext/ReducerContext";
 function App() {
   return (
     <>
-      <StopWatch />
+      <ReducerContext />
     </>
   );
 }
